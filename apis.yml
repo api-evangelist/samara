@@ -1,7 +1,28 @@
 aid: samara
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samara.png
 name: Samara
-description: Samara is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Samara is a residential design and construction company that builds prefabricated,
+  factory-made homes. Founded as an independent venture by Airbnb co-founder Joe Gebbia,
+  Samara designs and delivers backyard accessory dwelling units (ADUs) in configurable
+  Studio, One Bedroom, Two Bedroom, XL 8 and XL 10 models, alongside "Locale by Samara"
+  single-family homes and a modular "kit of parts" for higher-yield multifamily infill.
+  The company pairs a consumer-facing online configurator, property-eligibility checks,
+  financing options and regional showrooms with factory production and installation.
+  Backed by General Catalyst, Samara operates in the housing, construction technology and
+  real-estate space. It is a physical-product company with no public developer API,
+  documentation, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/samara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Housing
+- Construction Technology
+- Prefabrication
+- Real Estate
+- Accessory Dwelling Units
+- Modular Homes
 apis: []
+common:
+- type: DomainSecurity
+  url: security/samara-domain-security.yml
+- type: Website
+  url: https://www.samara.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
